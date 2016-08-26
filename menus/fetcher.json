@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle fetcher",
+        "command": "fetcher:fetch"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "fetcher",
+          "submenu": [
+            {
+              "label": "fetch",
+              "command": "fetcher:fetch"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
